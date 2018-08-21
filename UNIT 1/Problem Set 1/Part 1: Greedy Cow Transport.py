@@ -63,5 +63,5 @@ def greedy_cow_transport(cows, limit=10):
                 ship.append(cow)
                 total += value
                 cowsCopy[cow] = 0
-            trips.append(ship)
+        trips.append(ship)
     return trips
